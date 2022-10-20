@@ -18,6 +18,8 @@ ERRORS:
 
 - "Error: Failed to get Firebase project [project-name]. Please make sure the project exists and your account has permission to access it."
 
-This might happen if Node.js or Firebase CLIs are outdated. Upgrade both. 
+This might happen when Firebase CLIs is outdated. Upgrade both Node.js and Firebase. 
 Then, login again. At the prompt, type:
     >>firebase login --reauth
+
+Then Test & Deploy
